@@ -1,7 +1,7 @@
 package io.dowlath.dsa.leetcode.hackerrank;
 
 /*
-         I/P   :  "ababababab"
+         I/P   :  "ababababab" , n = 10
          O/P   :   5
  */
 public class RepeatedString {
