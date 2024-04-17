@@ -248,12 +248,12 @@ public class SinglyLinkedList {
            list.insertLast(10);
           /* list.insertLast(20);*/
            list.insertLast(20);
-           list.insertLast(30);
+          // list.insertLast(30);
            /*list.insertLast(30);
            list.insertLast(40);*/
-           list.insertLast(40);
-           list.insertLast(50);
-           list.insertLast(60);
+          // list.insertLast(40);
+         //  list.insertLast(50);
+         //  list.insertLast(60);
 
 
           // list.deleteFirstNode();
