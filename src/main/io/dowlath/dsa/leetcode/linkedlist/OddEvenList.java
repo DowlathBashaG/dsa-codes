@@ -17,7 +17,7 @@ public class OddEvenList {
         ListNode next;
         ListNode(int data){
             this.data = data;
-            this.next = next;
+            this.next = null;
         }
     }
     public void insertLast(int value){
