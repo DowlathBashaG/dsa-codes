@@ -1,4 +1,4 @@
-package io.dowlath.dsa.leetcode;
+package io.dowlath.dsa.leetcode.streams_highest_salary;
 
 
 import java.util.Collections;
