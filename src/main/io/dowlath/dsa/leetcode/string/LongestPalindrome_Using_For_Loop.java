@@ -1,6 +1,6 @@
 package io.dowlath.dsa.leetcode.string;
 
-public class LongestPalindrome {
+public class LongestPalindrome_Using_For_Loop {
     public static void main(String[] args) {
         String s = "DowlathBashaaaabbbbFromIndia";
         longestPalindrome(s);

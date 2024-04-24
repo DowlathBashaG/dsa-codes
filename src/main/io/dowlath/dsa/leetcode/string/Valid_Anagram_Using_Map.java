@@ -3,7 +3,7 @@ package io.dowlath.dsa.leetcode.string;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Valid_Anagram {
+public class Valid_Anagram_Using_Map {
     public static void main(String[] args) {
         String s = "rat"; //"anagram";
         String t = "cat"; //"nagaram";
