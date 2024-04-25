@@ -1,5 +1,18 @@
 package io.dowlath.dsa.leetcode.linkedlist;
 
+  /*
+            Input  :  10 -> 20 -> 30 -> 40 -> 50 -> null
+            Output :  50 -> 40 -> 30 -> 20 -> 10 -> null
+
+            NULL :
+                     20 -> 30 -> 40 -> 50 -> null
+                     10-> null
+
+                     10 -> NULL
+                     30 -> 40 -> 50 -> null
+                     20 -> 10 -> null
+
+     */
 public class Reverse_Linked_List {
      private ListNode head;
      public static class ListNode{
@@ -23,22 +36,6 @@ public class Reverse_Linked_List {
         }
         current.next = newNode;
     }
-
-    /*
-            Input  :  10 -> 20 -> 30 -> 40 -> 50 -> null
-            Output :  50 -> 40 -> 30 -> 20 -> 10 -> null
-
-            NULL :
-                     20 -> 30 -> 40 -> 50 -> null
-                     10-> null
-
-                     10 -> NULL
-                     30 -> 40 -> 50 -> null
-                     20 -> 10 -> null
-
-     */
-
-
 
 
     public ListNode reverseList(ListNode head){

@@ -24,10 +24,10 @@ import java.util.Arrays;
  */
 public class Rotate_Array_Generic {
     public static void main(String[] args) {
-        int[] a = {1,2,3,4,5};
+        int[] a = {1,2,3,4,5,6,7};
         System.out.println("Before Array ... : ");
         System.out.println(Arrays.toString(a));
-        rotateArray(a,7);
+        rotateArray(a,3);
         System.out.println("After Rotate Array ... :");
         System.out.println(Arrays.toString(a));
 
@@ -38,9 +38,9 @@ public class Rotate_Array_Generic {
         if(k<0){
             k = k + a.length;
         }
+        reverse(a,0,a.length-1);
         reverse(a,0,k-1);
         reverse(a,k,a.length-1);
-        reverse(a,0,a.length-1);
     }
 
     private static void reverse(int[] a,int start,int end) {
