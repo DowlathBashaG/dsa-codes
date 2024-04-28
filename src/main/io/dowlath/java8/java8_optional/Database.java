@@ -1,4 +1,4 @@
-package io.dowlath.dsa.leetcode.java8_map_flatMap;
+package io.dowlath.java8.java8_optional;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,6 +15,4 @@ public class Database {
                 new Customer(104, "kely", "kely@gmail.com", Arrays.asList("389246829364", "948609467"))
         ).collect(Collectors.toList());
     }
-
-
 }

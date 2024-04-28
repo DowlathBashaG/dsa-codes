@@ -1,4 +1,4 @@
-package io.dowlath.dsa.leetcode.java8_map_flatMap;
+package io.dowlath.java8.java8_map_flatMap;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,4 +1,4 @@
-package io.dowlath.dsa.leetcode.java8_interface;
+package io.dowlath.java8.java8_interface;
 
 /*
         Two ways we can access the default method from interface.

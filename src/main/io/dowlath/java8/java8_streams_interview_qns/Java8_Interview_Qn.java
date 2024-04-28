@@ -1,4 +1,4 @@
-package io.dowlath.dsa.leetcode.java8_streams_interview_qns;
+package io.dowlath.java8.java8_streams_interview_qns;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,11 +16,6 @@ import java.util.stream.Collectors;
  * [Author1, Author2, Author5, Author6]  <<< expected o/p
 
  */
-
-        import java.util.Arrays;
-        import java.util.List;
-        import java.util.stream.Collectors;
-        import java.util.stream.Stream;
 
 
 class Book {

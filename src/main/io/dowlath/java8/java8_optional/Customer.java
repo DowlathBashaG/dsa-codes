@@ -1,4 +1,4 @@
-package io.dowlath.dsa.leetcode.java8_optional;
+package io.dowlath.java8.java8_optional;
 
 import java.util.List;
 import java.util.Optional;
