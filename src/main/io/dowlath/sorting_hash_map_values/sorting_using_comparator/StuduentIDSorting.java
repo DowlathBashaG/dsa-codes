@@ -1,4 +1,4 @@
-package io.dowlath.sorting_using_comparator;
+package src.main.io.dowlath.sorting_hash_map_values.sorting_using_comparator;
 
 import java.util.ArrayList;
 import java.util.Collections;
